@@ -1,0 +1,35 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  color:dimgray;
+}
+
+ul > li {
+  margin-bottom: 5px;
+}
+
+ol > li {
+  margin-bottom: 10px;
+}
+
+ul.recipe-list > li > a {
+  text-decoration: underline dashed;
+  color:steelblue;
+}
+
+ul.recipe-list > li > a:visited {
+  text-decoration: underline dashed;
+  color:darkgray;
+}
+
+ul.recipe-list > li > a:hover {
+  font-weight: bold;
+}
+
+img.recipe-photo {
+  width: 500px;
+  height: auto;
+}
